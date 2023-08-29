@@ -8,7 +8,7 @@ export class FoodService {
   constructor() { }
   getAll():string[]{
     return[
-      'assets/images/foods/food- 1.jpg',
+      'assets/images/foods/1.jpg',
       'assets/images/foods/2.jpg',
       'assets/images/foods/3.png',
       'assets/images/foods/4.jpeg',
