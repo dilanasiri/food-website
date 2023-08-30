@@ -4,6 +4,9 @@ import { Food } from 'src/app/shared/models/Food';
   providedIn: 'root'
 })
 export class FoodService {
+  getAllFoodsBySearchTerm(arg0: any): Food[] {
+    throw new Error('Method not implemented.');
+  }
 
   constructor() { }
   getAll():Food[]{
